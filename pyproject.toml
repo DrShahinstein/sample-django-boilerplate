@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "realtor-site-fundamentals"
+version = "0.1.0"
+description = "A sample template of mine for real estate websites"
+authors = ["DrShahinstein <1taylanozturk@protonmail.com>"]
+license = "GNU General Public License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
